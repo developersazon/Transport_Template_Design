@@ -1,0 +1,201 @@
+/* YOUR CUSTOM STYLES */
+
+.view {
+    background: url(../image/img3.jpg)no-repeat center center;
+    background-size: cover;
+}
+#navbar_ca{
+    background-color: #300F3B;
+    width: 100%;
+}
+
+.view::before {
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        /*        background-color: #4285F4;*/
+    }
+}
+
+/*This is main css style sheet*/
+
+#mainbg {
+    background-color: #F3F5F7;
+}
+
+#mainbg .icone .circle_icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: #ec2a45;
+
+}
+
+#mainbg .icone .circle_icon:hover {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    background: #6A6F73;
+    color: white;
+
+}
+
+#center {}
+
+#mainbg .figure {}
+
+/*this is css style bg counter*/
+
+#bg_counterup {
+    background: url(../image/bg_counter.jpg)no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#bg_counterup::before {
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#bg_counterup .card {
+    background-color: transparent;
+
+}
+
+/*this is tesTestimonials_about css style*/
+
+#Testimonials_about a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*pricing table style sheet*/
+
+.pricing {
+    background-color: #39393a;
+    padding: 20px;
+    border-radius: 5px;
+    color:#fff;
+	margin-bottom:30px;
+}
+.pricing-top {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    margin: 0 auto;  
+}
+.pricing-top p{
+    margin-top: 20px;
+}
+.pricing-top sup{
+    font-size: 20px;
+    top: -3px;
+    left: -5px;
+}
+.pricing-top em{
+    font-size: 25px;
+}
+.pricing-top span{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.pricing ul{
+    padding: 0; 
+}
+.pricing ul li{
+    max-width: 140px;
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.btn {
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+    transform: .5s;
+}
+
+/*
+.pricing:hover {
+    background: #87d37c;
+    color: #000;
+    transition-duration:.5s;
+}
+*/
+.parice_table .active{
+    background: #87d37c;
+    color: #000;
+    transition-duration:.5s;
+}
+/*
+.pricing:hover .pricing-top{
+    background: #fff;
+    color: #87d37c;
+    transition-duration: .5s;
+}
+*/
+ .parice_table .active .pricing-top{
+    background: #fff;
+    color: #87d37c;
+    transition-duration: .5s;
+}
+/*
+.pricing:hover .btn{
+    background: #fff;
+    color: #87d37c;
+    transition-duration: .5s;
+}
+*/
+.parice_table .active .btn{
+    background: #fff;
+    color: #87d37c;
+    transition-duration: .5s;
+}
+
+/*This constom css*/
+
+#pricing{
+    background-color: #F3F5F7;
+}
+/*This style footer top*/
+#footer_top .footer-socials a {
+    background-color: #4A148C;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+}
